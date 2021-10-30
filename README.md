@@ -1,5 +1,5 @@
 # Snake-game
-This is a basic snake game made my using pygame module of python with some prebuilt functions. 
+This is a basic snake game made by using pygame module of python with some prebuilt functions. 
 
 I have uploaded two files colors and main , download both the files and run the main file after installing some modules
 
