@@ -2,7 +2,6 @@ import pygame
 import random
 import pyautogui 
 import time
-from Colors import *
 pygame.mixer.init()
 pygame.init() 
 
@@ -14,6 +13,13 @@ gameWindow = pygame.display.set_mode((screen_width,screen_height))
 # Game title
 pygame.display.set_caption("Snake Game")
 pygame.display.update()
+
+white = (255, 255, 255)
+red = (255, 0, 0)
+black = (0, 0, 0)
+blue = (0, 0 ,255)
+green = (0, 153, 0)
+grey = (104,104,104)
 
 clock = pygame.time.Clock()
 large_font = pygame.font.SysFont(None, 55)
