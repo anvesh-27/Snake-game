@@ -48,8 +48,8 @@ def welcome(): # Game start's
                 exit_game = True
             if event.type == pygame.KEYDOWN:
                 if event.key == pygame.K_SPACE:
-                    # pygame.mixer.music.load("back.mp3")
-                    # pygame.mixer.music.play()
+                    pygame.mixer.music.load("Media/back.mp3")
+                    pygame.mixer.music.play()
                     Game_loop()
                 # if event.key == pygame.
         
