@@ -137,8 +137,8 @@ def Game_loop():
 
             #Increasing score and giving food 
             if abs(snake_x - food_x)<10 and abs(snake_y - food_y)<10:
-                # pygame.mixer.music.load("bite.mp3")
-                # pygame.mixer.music.play()
+                pygame.mixer.music.load("Media/bite.mp3")
+                pygame.mixer.music.play()
                 score = score+10
                 food_x = random.randint(20, 880)
                 food_y = random.randint(53, 580)
