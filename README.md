@@ -1,14 +1,14 @@
 # Snake-game
 This is a basic snake game made by using pygame module of python with some prebuilt functions. 
 
-I have uploaded two files colors and main , download both the files and run the main file after installing some modules
+# Installation
+You need to have python3 to run this
 
-They are :-
+### Install Python Requirements
+```
+pip install -r requirements.txt
+```
 
- 1. pygame
- 2. pyautogui
- 
-You will need to run the following codes in your terminal to install these modules:-
- 
- 1. pip install pygame
- 2. pip install pyautogui
+# Run
+After downloading all the files, and installing requirements. Run the "Main.py".
+Your game will start shortly.
