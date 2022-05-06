@@ -10,6 +10,9 @@ screen_width = 900
 screen_height = 600       
 gameWindow = pygame.display.set_mode((screen_width,screen_height))
 
+bg_img = pygame.image.load("Media/bg.png")
+bg_img = pygame.transform.scale(bg_img, (screen_width, screen_height)).convert_alpha()
+
 # Game title
 pygame.display.set_caption("Snake Game")
 pygame.display.update()
